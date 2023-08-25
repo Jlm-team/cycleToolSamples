@@ -1,7 +1,7 @@
 package team.jlm.coderefactor.samples.leveragebuiltins.sample1;
 
-public class LerverageBuiltinsClassA {
+public class LeverageBuiltinsClassA {
     public LeverageParentInterface funcInA() {
-        return new LerverageBuiltinsClassB();
+        return new LeverageBuiltinsClassB();
     }
 }
