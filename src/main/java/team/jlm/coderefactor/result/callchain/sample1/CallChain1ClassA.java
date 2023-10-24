@@ -1,9 +1,10 @@
 package team.jlm.coderefactor.result.callchain.sample1;
 
 public class CallChain1ClassA {
-    CallChain1ClassB callChain1ClassB;
+    CallChain1ClassC callChain1ClassC;
 
     public void funcInA() {
-        callChain1ClassB.funcInB(1);
+        callChain1ClassC.funcNoReturnInC(1);
+        System.out.println(callChain1ClassC.funcWithReturnValueInC(1));
     }
 }
